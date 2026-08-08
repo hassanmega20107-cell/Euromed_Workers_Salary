@@ -30,8 +30,8 @@ st.set_page_config(
 # SUPABASE CONNECTION
 # =========================================================
 
-SUPABASE_URL = st.secrets["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+SUPABASE_URL = "https://hofzljyelyoabdasatof.supabase.co"
+SUPABASE_KEY = "sb_publishable_1T_zNnKvluz2uotvUyDI8g_7G7AQzx6"
 
 supabase = create_client(
     SUPABASE_URL,
